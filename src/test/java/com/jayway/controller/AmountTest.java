@@ -33,7 +33,7 @@ public class AmountTest {
         Set<ConstraintViolation<Amount>> constraintViolations =
                 validator.validate(amount);
 
-        assertThat(constraintViolations.size(), is(0));
+        assertThat(constraintViolations.size(), is(1));
     }
 
 
